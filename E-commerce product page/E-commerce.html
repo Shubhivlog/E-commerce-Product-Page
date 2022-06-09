@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link rel="stylesheet" href="E-commerceStyle.css">
+</head>
+<body>
+    <div class="navigation">
+        <div class="left">
+            <div style="display: flex; align-items: center;">
+            <span id="horizontal-nav-bar">&#9776</span>
+            <h2>t-shirts</h2>
+            </div>
+            <div id="vertical">
+            <ul>
+                <li><a href="#">Collection</a></li>
+                <li><a href="#">Men</a></li>
+                <li><a href="#">Women</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+
+            </ul>
+            </div>
+        </div>
+        <div class="right">
+            <span style="font-size: 1.3rem;">
+                &#128722
+            </span>
+            <span>
+                <img src="img5.jpg" class="profile">
+            </span>
+        </div>
+    </div>
+    <div class="container">
+        <div class="left-container">
+            <div id="upper-div">
+                <div id="images">
+                <img src="img1.jpg">
+                <img src="img2.jpg">
+                <img src="img3.jpg">
+                <img src="img4.jpg">
+                </div>
+            </div>
+            <div id="lower-div">
+                <span class="active"><img src="img1.jpg"  id="img1"></span>
+                <span><img src="img2.jpg" id="img2"></span>
+                <span><img src="img3.jpg"  id="img3"></span>
+                <span><img src="img4.jpg"  id="img4"></span>
+            </div>
+        </div>
+        <div class="right-container">
+            <span style="color: orange;font-weight: 550;">T-SHIRT COMPANY</span>
+            <h1>Fall Limited Edition <br>T-Shirts</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br>Ducimus adipisci itaque corrupti in, laudantium nostrum!<br>itaque corrupti in, laudantium nostrum!</p>
+            <div class="price">
+            <h3>$125.00</h3>
+            <span class="offer">50%</span>
+            </div>
+            <p><del>$250</del></p>
+            <div class="numberOfItems">
+                <div class="inc-dec">
+                    <span class="operator" id="operatorMinus">-</span>
+                    <span id="number">0</span>
+                    <span class="operator" id="operatorPlus">+</span>
+                </div>
+                <div class="addToCart">
+                    <button>Add to cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="E-commerceAction.js"></script>
+</body>
+</html>
